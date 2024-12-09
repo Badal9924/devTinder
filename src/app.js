@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 
-
 app.use("/hel",(req,res)=>{
     res.send("Hel")
 });
 
+app.use("/helol",(req,res)=>{
+    res.send("Hel")
+});
 
 app.use("/test",(req,res)=>{
     res.send("Hello from the server")
